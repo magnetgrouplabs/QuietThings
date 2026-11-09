@@ -60,12 +60,21 @@ API token for you.
 
 You can do the two parts in whichever order you prefer, but you can't add a TV to the integration until that TV has been patched.
 
-### With HACS
+### With Marketplace
 
-1. In Home Assistant, open **HACS**, select the three-dot menu at the top right, and choose **Custom repositories**.
-2. Paste this repository's GitHub URL, select **Integration** as the category, and choose **Add**.
-3. Find **QuietThings** in HACS and select **Download**.
-4. Restart Home Assistant, then add the integration by following steps 3 through 5 under **Manually** below.
+[![Open your Home Assistant instance and open a repository inside the Marketplace.](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=magnetgrouplabs&repository=QuietThings&category=integration)
+
+1. In Home Assistant, go to **Settings** > **Marketplace**, or select the button above.
+2. Search for **QuietThings**, select it, then select **Install** and confirm with **Install** in the dialog.
+3. Complete setup with steps 4 and 5 under **Manually** below. If the setup form doesn't open on its own, start from step 3.
+
+If QuietThings doesn't appear in search, add it from its link:
+
+Marketplace asks you to connect a GitHub account the first time you add from a link.
+
+1. In **Settings** > **Marketplace**, select **Add from link** at the top right.
+2. Under **GitHub link**, enter `magnetgrouplabs/QuietThings` and select **Add**. If you're asked for a **Type**, choose the one for integrations and select **Add** again.
+3. Select **QuietThings** and select **Install**, then complete setup the same way.
 
 ### Manually
 
